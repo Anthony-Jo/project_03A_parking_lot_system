@@ -1,0 +1,127 @@
+/*
+ * LED.c
+ *
+ *  Created on: Oct 10, 2019
+ *      Author: kccistc
+ */
+#include "LED.h"
+
+void ParkingLot_Empty_1()
+{
+	HAL_GPIO_WritePin(LED1_GPIO, LED1_PIN, GPIO_PIN_SET);
+	HAL_GPIO_WritePin(LED6_GPIO, LED6_PIN, GPIO_PIN_RESET);
+}
+
+void ParkingLot_Occ_1()
+{
+	HAL_GPIO_WritePin(LED1_GPIO, LED1_PIN, GPIO_PIN_RESET);
+	HAL_GPIO_WritePin(LED6_GPIO, LED6_PIN, GPIO_PIN_SET);
+}
+
+void ParkingLot_Empty_2()
+{
+	HAL_GPIO_WritePin(LED2_GPIO, LED2_PIN, GPIO_PIN_SET);
+	HAL_GPIO_WritePin(LED7_GPIO, LED7_PIN, GPIO_PIN_RESET);
+}
+
+void ParkingLot_Occ_2()
+{
+	HAL_GPIO_WritePin(LED2_GPIO, LED2_PIN, GPIO_PIN_RESET);
+	HAL_GPIO_WritePin(LED7_GPIO, LED7_PIN, GPIO_PIN_SET);
+}
+
+void ParkingLot_Empty_3()
+{
+	HAL_GPIO_WritePin(LED3_GPIO, LED3_PIN, GPIO_PIN_SET);
+	HAL_GPIO_WritePin(LED8_GPIO, LED8_PIN, GPIO_PIN_RESET);
+}
+
+void ParkingLot_Occ_3()
+{
+	HAL_GPIO_WritePin(LED3_GPIO, LED3_PIN, GPIO_PIN_RESET);
+	HAL_GPIO_WritePin(LED8_GPIO, LED8_PIN, GPIO_PIN_SET);
+}
+void ParkingLot_Empty_4()
+{
+	HAL_GPIO_WritePin(LED4_GPIO, LED4_PIN, GPIO_PIN_SET);
+	HAL_GPIO_WritePin(LED9_GPIO, LED9_PIN, GPIO_PIN_RESET);
+}
+
+void ParkingLot_Occ_4()
+{
+	HAL_GPIO_WritePin(LED4_GPIO, LED4_PIN, GPIO_PIN_RESET);
+	HAL_GPIO_WritePin(LED9_GPIO, LED9_PIN, GPIO_PIN_SET);
+}
+
+void ParkingLot_Empty_5()
+{
+	HAL_GPIO_WritePin(LED5_GPIO, LED5_PIN, GPIO_PIN_SET);
+	HAL_GPIO_WritePin(LED10_GPIO, LED10_PIN, GPIO_PIN_RESET);
+}
+
+void ParkingLot_Occ_5()
+{
+	HAL_GPIO_WritePin(LED5_GPIO, LED5_PIN, GPIO_PIN_RESET);
+	HAL_GPIO_WritePin(LED10_GPIO, LED10_PIN, GPIO_PIN_SET);
+}
+
+/*void Off_LED(void)
+{
+	HAL_GPIO_WritePin(LED1_GPIO, LED1_PIN, RESET);
+	HAL_GPIO_WritePin(LED2_GPIO, LED2_PIN, RESET);
+	HAL_GPIO_WritePin(LED3_GPIO, LED3_PIN, RESET);
+	HAL_GPIO_WritePin(LED4_GPIO, LED4_PIN, RESET);
+}
+
+void On_LED_1(void)
+{
+	HAL_GPIO_WritePin(LED1_GPIO, LED1_PIN, SET);
+	HAL_GPIO_WritePin(LED2_GPIO, LED2_PIN, RESET);
+	HAL_GPIO_WritePin(LED3_GPIO, LED3_PIN, RESET);
+	HAL_GPIO_WritePin(LED4_GPIO, LED4_PIN, RESET);
+}
+
+void On_LED_2(void)
+{
+	HAL_GPIO_WritePin(LED1_GPIO, LED1_PIN, RESET);
+	HAL_GPIO_WritePin(LED2_GPIO, LED2_PIN, SET);
+	HAL_GPIO_WritePin(LED3_GPIO, LED3_PIN, RESET);
+	HAL_GPIO_WritePin(LED4_GPIO, LED4_PIN, RESET);
+}
+
+void On_LED_3(void)
+{
+	HAL_GPIO_WritePin(LED1_GPIO, LED1_PIN, RESET);
+	HAL_GPIO_WritePin(LED2_GPIO, LED2_PIN, RESET);
+	HAL_GPIO_WritePin(LED3_GPIO, LED3_PIN, SET);
+	HAL_GPIO_WritePin(LED4_GPIO, LED4_PIN, RESET);
+}
+
+void On_LED_4(void)
+{
+	HAL_GPIO_WritePin(LED1_GPIO, LED1_PIN, RESET);
+	HAL_GPIO_WritePin(LED2_GPIO, LED2_PIN, RESET);
+	HAL_GPIO_WritePin(LED3_GPIO, LED3_PIN, RESET);
+	HAL_GPIO_WritePin(LED4_GPIO, LED4_PIN, SET);
+}
+
+void LED1Toggle(void)
+{
+	HAL_GPIO_TogglePin(LED1_GPIO, LED1_PIN);
+}
+
+void LED2Toggle(void)
+{
+	HAL_GPIO_TogglePin(LED2_GPIO, LED2_PIN);
+}
+
+void LED3Toggle(void)
+{
+	HAL_GPIO_TogglePin(LED3_GPIO, LED3_PIN);
+}
+
+void LED4Toggle(void)
+{
+	HAL_GPIO_TogglePin(LED4_GPIO, LED4_PIN);
+}
+ */

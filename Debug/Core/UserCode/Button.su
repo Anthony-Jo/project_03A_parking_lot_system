@@ -1,0 +1,4 @@
+Button.c:9:9:GetButton1State	16	static
+Button.c:28:9:GetButton2State	16	static
+Button.c:47:9:GetButton3State	16	static
+Button.c:66:9:GetButton4State	16	static

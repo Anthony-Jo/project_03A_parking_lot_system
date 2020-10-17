@@ -1,0 +1,4 @@
+ADC.c:11:6:ADC_Value_1_Write	16	static
+ADC.c:36:6:ADC_Value_2_Write	16	static
+ADC.c:57:6:Parking_Lot_ADC	16	static
+ADC.c:120:6:Gate_ADC	16	static

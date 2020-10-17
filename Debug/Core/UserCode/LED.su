@@ -1,0 +1,10 @@
+LED.c:9:6:ParkingLot_Empty_1	8	static
+LED.c:15:6:ParkingLot_Occ_1	8	static
+LED.c:21:6:ParkingLot_Empty_2	8	static
+LED.c:27:6:ParkingLot_Occ_2	8	static
+LED.c:33:6:ParkingLot_Empty_3	8	static
+LED.c:39:6:ParkingLot_Occ_3	8	static
+LED.c:44:6:ParkingLot_Empty_4	8	static
+LED.c:50:6:ParkingLot_Occ_4	8	static
+LED.c:56:6:ParkingLot_Empty_5	8	static
+LED.c:62:6:ParkingLot_Occ_5	8	static

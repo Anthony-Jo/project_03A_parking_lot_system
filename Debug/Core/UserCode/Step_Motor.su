@@ -1,0 +1,3 @@
+Step_Motor.c:11:6:StepMotorStop	8	static
+Step_Motor.c:19:6:StepMotorCW	16	static
+Step_Motor.c:50:6:StepMotorCCW	16	static

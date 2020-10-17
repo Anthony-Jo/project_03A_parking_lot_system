@@ -1,0 +1,6 @@
+circularQueue.c:11:6:QueueInit	16	static
+circularQueue.c:17:9:QIsEmpty	16	static
+circularQueue.c:25:9:NextPosIdx	16	static
+circularQueue.c:33:6:Enqueue	16	static
+circularQueue.c:45:6:Dequeue	16	static
+circularQueue.c:57:6:QPeek	16	static

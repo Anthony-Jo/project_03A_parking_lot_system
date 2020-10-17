@@ -1,0 +1,5 @@
+FSM.c:10:6:Message_OutPut	24	static
+FSM.c:34:6:Lift_Control	8	static
+FSM.c:47:6:Lift_Control_BT	16	static
+FSM.c:60:6:Gate_Control_BT	16	static
+FSM.c:93:6:Lift_Action	8	static
